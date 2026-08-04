@@ -1,0 +1,17 @@
+# 不入库内容：.docx / 中间产物 / 备份
+
+# Word 文档（仓库只保留 .md 源稿）
+*.docx
+*.doc
+
+# 公式渲染中间产物
+math_figures/
+
+# 备份目录
+*_备份*/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
